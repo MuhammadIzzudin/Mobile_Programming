@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="BIODATA MAHASISWA :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#503E00" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="NAMA          : Muhammad Izzudin"
+                android:textColor="@color/white"
+                android:background="#E9C46A" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="NIM               : 32602000047"
+                android:textColor="@color/white"
+                android:background="#DDB247" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="ANGKATAN  : 2020"
+                android:textColor="@color/white"
+                android:background="#E9C46A" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="JURUSAN     : Teknik Informatika"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#DDB247" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="189dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="FTI"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#503E00" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="111dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:text="UNISSULA"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#503E00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Halo!"
+                android:textColor="@color/black"
+                android:background="#f4f1de" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Nama"
+                android:textColor="@color/white"
+                android:background="#55745E" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Saya"
+                android:textColor="@color/black"
+                android:background="#f4f1de" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Muhammad"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#5D5F4D" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Izzudin"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#98987F" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

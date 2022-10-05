@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv1"
+            android:gravity="top"
+            android:text="Tidak ada"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#457373" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv2"
+            android:gravity="center"
+            android:layout_below="@id/tv1"
+            android:text="yang perlu disesali."
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#CD7E59" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv3"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/tv2"
+            android:text="Semua terjadi"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#DDB247" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv4"
+            android:gravity="end"
+            android:layout_below="@id/tv3"
+            android:text="mengikuti keteraturan"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#5A6868" />
+
+
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv5"
+            android:layout_gravity="start"
+            android:layout_below="@id/tv4"
+            android:layout_marginTop="50dp"
+            android:text="dan hukum alam."
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#CD7E59" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv6"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tv5"
+            android:text="Bisakah kita tidak hanya menerimanya,"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#457373" />
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv7"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv6"
+            android:text="tapi bahkan mencintainya?"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="#DDB247" />
+
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv8"
+            android:gravity="center"
+            android:text="ATAS"
+            android:textStyle="bold"
+            android:layout_below="@id/tv7"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#E1C699"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv9"
+            android:gravity="center"
+            android:text="TENGAH"
+            android:textStyle="bold"
+            android:layout_below="@id/tv8"
+            android:layout_centerHorizontal="true"
+            android:background="#997061"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv10"
+            android:gravity="center"
+            android:text="KIRI"
+            android:textStyle="bold"
+            android:layout_below="@id/tv8"
+            android:layout_toLeftOf="@+id/tv9"
+            android:background="#4B1223"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv11"
+            android:gravity="center"
+            android:text="KANAN"
+            android:textStyle="bold"
+            android:layout_below="@id/tv8"
+            android:layout_toRightOf="@+id/tv9"
+            android:background="#E1C699"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tv12"
+            android:gravity="center"
+            android:text="BAWAH"
+            android:textStyle="bold"
+            android:layout_below="@id/tv9"
+            android:layout_toRightOf="@id/tv10"
+            android:background="#4B1223"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
