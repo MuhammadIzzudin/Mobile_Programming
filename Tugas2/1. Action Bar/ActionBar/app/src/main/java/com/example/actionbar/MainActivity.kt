@@ -21,25 +21,25 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
         when(item.itemId){
-
             R.id.account -> {
                 Toast.makeText(this, "Account", Toast.LENGTH_LONG).show()
                 return true
             }
+
             R.id.about -> {
                 Toast.makeText(this, "About", Toast.LENGTH_LONG).show()
                 return true
             }
+
             R.id.setting -> {
                 Toast.makeText(this, "Setting", Toast.LENGTH_LONG).show()
                 return true
             }
+
             else -> {
                 return super.onOptionsItemSelected(item)
             }
         }
     }
-
 }
