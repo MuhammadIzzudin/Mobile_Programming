@@ -11,25 +11,25 @@
         android:layout_height="match_parent" >
 
         <TextView
+            android:id="@+id/tv1"
             android:layout_width="211dp"
             android:layout_height="50dp"
-            android:id="@+id/tv1"
+            android:background="#457373"
             android:gravity="top"
             android:text="Tidak ada"
-            android:textStyle="bold"
             android:textColor="@color/white"
-            android:background="#457373" />
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tv2"
             android:layout_width="211dp"
             android:layout_height="50dp"
-            android:id="@+id/tv2"
-            android:gravity="center"
             android:layout_below="@id/tv1"
+            android:background="#CD7E59"
+            android:gravity="center"
             android:text="yang perlu disesali."
-            android:textStyle="bold"
             android:textColor="@color/white"
-            android:background="#CD7E59" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="211dp"
