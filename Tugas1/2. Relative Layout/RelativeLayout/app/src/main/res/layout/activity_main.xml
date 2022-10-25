@@ -68,15 +68,15 @@
             android:background="#CD7E59" />
 
         <TextView
+            android:id="@+id/tv6"
             android:layout_width="211dp"
             android:layout_height="50dp"
-            android:id="@+id/tv6"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/tv5"
+            android:layout_centerHorizontal="true"
+            android:background="#457373"
             android:text="Bisakah kita tidak hanya menerimanya,"
-            android:textStyle="bold"
             android:textColor="@color/white"
-            android:background="#457373" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="211dp"
