@@ -79,30 +79,29 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tv7"
             android:layout_width="211dp"
             android:layout_height="50dp"
-            android:id="@+id/tv7"
-            android:layout_alignParentRight="true"
             android:layout_below="@id/tv6"
+            android:layout_alignParentRight="true"
+            android:background="#DDB247"
             android:text="tapi bahkan mencintainya?"
-            android:textStyle="bold"
             android:textColor="@color/white"
-            android:background="#DDB247" />
-
+            android:textStyle="bold" />
 
 
         <TextView
+            android:id="@+id/tv8"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:id="@+id/tv8"
+            android:layout_below="@id/tv7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="#E1C699"
             android:gravity="center"
             android:text="ATAS"
-            android:textStyle="bold"
-            android:layout_below="@id/tv7"
-            android:layout_marginTop="50dp"
-            android:layout_centerHorizontal="true"
-            android:background="#E1C699"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
@@ -117,16 +116,16 @@
             android:textColor="@color/white" />
 
         <TextView
+            android:id="@+id/tv10"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:id="@+id/tv10"
-            android:gravity="center"
-            android:text="KIRI"
-            android:textStyle="bold"
             android:layout_below="@id/tv8"
             android:layout_toLeftOf="@+id/tv9"
             android:background="#4B1223"
-            android:textColor="@color/white" />
+            android:gravity="center"
+            android:text="KIRI"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="60dp"
