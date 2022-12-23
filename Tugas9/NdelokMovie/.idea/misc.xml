@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/drawable/content_edit_background.xml" value="0.1" />
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/layout/fragment_movie.xml" value="0.1" />
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/layout/fragment_profil.xml" value="0.1" />
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/layout/fragment_tv_show.xml" value="0.1" />
-        <entry key="..\:/Users/Zed/AndroidStudioProjects/Mobile_Programming/Tugas9/NdelokMovie/app/src/main/res/layout/item_cardview.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/drawable/bottom_nav_color_state.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/drawable/content_edit_background.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/drawable/ic_movie.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/drawable/ic_tvshow.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/drawable/ic_user.xml" value="0.1065" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/layout/fragment_movie.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/layout/fragment_tv_show.xml" value="0.1" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/layout/item_cardview.xml" value="0.22" />
+        <entry key="..\:/GitHub/NdelokMovie/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>

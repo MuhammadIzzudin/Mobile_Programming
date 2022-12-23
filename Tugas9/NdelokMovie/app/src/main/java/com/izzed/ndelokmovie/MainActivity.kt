@@ -2,57 +2,40 @@ package com.izzed.ndelokmovie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import androidx.viewpager.widget.ViewPager
-import com.google.android.material.tabs.TabLayout
-import com.izzed.ndelokmovie.adapters.CardViewAdapter
-import com.izzed.ndelokmovie.adapters.TabViewAdapter
-import com.izzed.ndelokmovie.data.Movie
-import com.izzed.ndelokmovie.data.MoviesData
+import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.izzed.ndelokmovie.fragments.MovieFragment
+import com.izzed.ndelokmovie.fragments.TvShowFragment
+import com.izzed.ndelokmovie.R
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var tabLayout: TabLayout
-    private lateinit var viewPager: ViewPager
-    private lateinit var rvMovies: RecyclerView
-    private var list: ArrayList<Movie> = arrayListOf()
+    private val movieFragment = MovieFragment()
+    private val tvShowFragment = TvShowFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tabLayout = findViewById(R.id.tabLayout)
-        viewPager = findViewById(R.id.viewPager)
-        rvMovies = findViewById(R.id.rv_Movies)
-        rvMovies.setHasFixedSize(true)
+        replaceFragment(MovieFragment())
 
-        tabLayout.addTab(tabLayout.newTab().setText("Movie"))
-        tabLayout.addTab(tabLayout.newTab().setText("TV Show"))
-        tabLayout.addTab(tabLayout.newTab().setText("Profil"))
-        tabLayout.tabGravity = TabLayout.GRAVITY_FILL
-
-        val adapter = TabViewAdapter(this, supportFragmentManager, tabLayout.tabCount)
-        viewPager.adapter = adapter
-
-        viewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabLayout))
-        tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
-            override fun onTabSelected(tab: TabLayout.Tab?) {
-                viewPager.currentItem = tab!!.position
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
+        bottomNav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.ic_movie -> replaceFragment(movieFragment)
+                R.id.ic_tvShow -> replaceFragment(tvShowFragment)
             }
-
-            override fun onTabUnselected(tab: TabLayout.Tab?) {}
-            override fun onTabReselected(tab: TabLayout.Tab?) {}
-
-        })
-
-        list.addAll(MoviesData.listData)
-        showRecyclerCardView()
+            true
+        }
     }
 
-    private fun showRecyclerCardView() {
-        rvMovies.layoutManager = LinearLayoutManager(this)
-        val cardViewMovieAdapter = CardViewAdapter(list)
-        rvMovies.adapter = cardViewMovieAdapter
+    private fun replaceFragment(fragment: Fragment) {
+
+        if (fragment != null) {
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.frame_layout, fragment)
+            transaction.commit()
+        }
     }
+
 }
