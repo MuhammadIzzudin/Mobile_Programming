@@ -32,5 +32,7 @@
     <string name="tvshow_detail_4">"Wandavision, Kisah Perih Superhero Atas Rasa Kehilangan. Serial Wandavision ini mengisahkan kehidupan Wanda Maximoff dan Vision yang telah berkeluarga setelah kejadian blip oleh Thanos di film Avenger : Endgame."</string>
     <string name="tvshow_detail_5">"Seri ini mengisahkan tentang pertemanan lima orang dokter yang telah bersahabat sejak di bangku kuliah, pada tahun 1999 yaitu 20 tahun sebelumnya. Ceritanya berpusat dengan kehidupan lima tokohnya sebagai seorang dokter, sahabat, hingga pemain band. Kelima dokter ini kemudian bekerja di rumah sakit yang sama."</string>
     <string name="tvshow_detail_6">"Seri ini mengisahkan tentang pertemanan lima orang dokter yang telah bersahabat sejak di bangku kuliah, pada tahun 1999 yaitu 20 tahun sebelumnya. Ceritanya berpusat dengan kehidupan lima tokohnya sebagai seorang dokter, sahabat, hingga pemain band. Kelima dokter ini kemudian bekerja di rumah sakit yang sama."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

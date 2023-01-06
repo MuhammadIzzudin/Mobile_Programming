@@ -7,11 +7,13 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.izzed.ndelokmovie.fragments.MovieFragment
 import com.izzed.ndelokmovie.fragments.TvShowFragment
 import com.izzed.ndelokmovie.R
+import com.izzed.ndelokmovie.fragments.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 
     private val movieFragment = MovieFragment()
     private val tvShowFragment = TvShowFragment()
+    private val profileFragment = ProfileFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.ic_movie -> replaceFragment(movieFragment)
                 R.id.ic_tvShow -> replaceFragment(tvShowFragment)
+                R.id.ic_profile -> replaceFragment(profileFragment)
             }
             true
         }
