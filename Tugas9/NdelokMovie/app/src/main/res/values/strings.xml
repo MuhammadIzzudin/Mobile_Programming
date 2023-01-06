@@ -34,5 +34,9 @@
     <string name="tvshow_detail_6">"Seri ini mengisahkan tentang pertemanan lima orang dokter yang telah bersahabat sejak di bangku kuliah, pada tahun 1999 yaitu 20 tahun sebelumnya. Ceritanya berpusat dengan kehidupan lima tokohnya sebagai seorang dokter, sahabat, hingga pemain band. Kelima dokter ini kemudian bekerja di rumah sakit yang sama."</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_movie">MOVIE</string>
+    <string name="fragment_tv_show">TV SHOW</string>
+    <string name="fragment_profile">PROFILE</string>
+    <string name="name">Muhammad Izzudin</string>
 
 </resources>
